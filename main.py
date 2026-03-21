@@ -22,7 +22,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://your-frontend.vercel.app",  # Replace with actual URL
+        "https://ai-txt-suite-frontend.vercel.app",  # Your exact URL
+        "https://ai-txt-suite-frontend-git-main-joseph-otienos-projects-ec384454.vercel.app",  # Preview URLlace with actual URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
